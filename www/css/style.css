@@ -1,19 +1,64 @@
 body {
-    margin: 0;
-    padding: 10px;
-    background-color: #ccc;
-    font-family: 'Helvetica';
+    padding: 5px; /**   **/
+    background-color: black;
+    font-family: 'Arial';
 }
 
 h1 {
-    text-shadow: 0 -2px 0 #999;
-    text-align: center;
-    font-size: 40px;
+   text-align: left;
+    font-size: 20px;
     padding: 0;
-    margin: 200px 0 30px 0;
+    margin: 10px 0 10px 0;
     color: white;
 }
 
+h2 {
+    text-align: left;
+    font-size: 18px;
+    padding: 0;
+    margin: 8px 0 8px 0;
+    color: white;
+}
+h3 {
+   text-align: left;
+    font-size: 16px;
+    padding: 0;
+    margin: 6px 0 6px 0;
+    color: white;
+}
+
+h4 {
+    text-align: left;
+    font-size: 14px;
+    padding: 0;
+    margin: 4px 0 4px 0;
+    color: white;
+}
+
+h5 {
+    text-align: left;
+    font-size: 12px;
+    padding: 0;
+    margin: 2px 0 2px 0;
+    color: white;
+}
+
+h6 {
+    text-align: left;
+    font-size: 10px;
+    padding: 0;
+    margin: 2px 0 2px 0;
+    color: white;
+}
+
+
+p {
+    text-align: left;
+    font-size: 10px;
+    padding: 0;
+    margin: 2px 0 2px 0;
+    color: white;
+}
 /**
  * Large Button Component
  * http://components.onsenui.io/
@@ -23,56 +68,33 @@ h1 {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  padding: 0;
-  margin: 0;
-  font: inherit;
-  color: inherit;
-  background: transparent;
-  border: none;
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  cursor: default;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  height: auto;
-  text-decoration: none;
-  padding: 4px 20px;
-  font-size: 16px;
-  line-height: 36px;
-  letter-spacing: 0;
-  color: #fff;
-  text-shadow: 0 1px none;
-  vertical-align: middle;
-  background-color: #1284ff;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border: none;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-transition: background-color 0.2s linear, color 0.2s linear, opacity 0.2s linear;
-  -moz-transition: background-color 0.2s linear, color 0.2s linear, opacity 0.2s linear;
-  -o-transition: background-color 0.2s linear, color 0.2s linear, opacity 0.2s linear;
-  transition: background-color 0.2s linear, color 0.2s linear, opacity 0.2s linear;
-  font-weight: 400;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 36px;
-  padding: 4px 20px;
-  display: block;
+  background-color: transparent;
+  color: white;
+  font-family: 'Arial';
   width: 100%;
+  
+  
+  background-color:    transparent;
+        border-width:        4px;
+        border-style:        solid;
+        border-color:        blue;
+    /**border-right-color:  black;
+	border-bottom-color: black;**/
+  
+    
 }
+
+
+.Table--Anzeigen {
+    
+    
+}
+
+
+
+
+
+/**
 .button--large:active {
   background-color: #1284ff;
   -webkit-box-shadow: none;
@@ -104,3 +126,4 @@ h1 {
   box-shadow: none;
   outline: 0;
 }
+**/
