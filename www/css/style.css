@@ -23,7 +23,7 @@ body {
 }
 
 .nav_click {
-    background-color: lightgrey;
+    background-color: transparent;
     text-decoration: none;
     width: auto;
     height: auto;
@@ -52,7 +52,6 @@ body {
  width: 100%;
  margin: 5px;
  font-size: 12px;
- background-color: white;
     display: -webkit-flex;
     display: flex;
     webkit-flex-direction: column;
@@ -60,9 +59,16 @@ body {
  
 }
 
+.func_btn {
+    width: 295px;
+    height: 40px;
+    margin: 5px;
+    font-size: 16px;
+}
+
 .btn_label {
     background-color: transparent;
-    width: auto;
+    width: 295px;
     height: auto;
     margin: 5px;
     font-size: 16px;
@@ -71,7 +77,7 @@ body {
 
 .btn_input {
     background-color: white;
-    width: auto;
+    width: 295px;
     height: auto;
     margin: 5px;
  }
@@ -80,23 +86,22 @@ body {
 
 .btn_empty_small
 {
-    background-color: red;
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
  }
 
 .btn_empty_medium
 {
-    background-color: yellow;
-    width: 15px;
-    height: 15px;
+ 
+    width: 10px;
+    height: 10px;
  }
 
 .btn_empty_large
 {
-    background-color: green;
-    width: 20px;
-    height: 20px;
+ 
+    width: 15px;
+    height: 15px;
  }
 
 
