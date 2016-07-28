@@ -1,9 +1,107 @@
 body {
-    padding: 5px; /**   **/
+/**    padding: 5px; **/
     background-color: white;
     font-family: 'Arial';
 }
+/** ********************************************************************************* **/
+.nav {
+ height: 70px;
+ width: 100%;
+ margin: 5px;
+ background-color: white;
+    display: -webkit-flex;
+    display: flex;
+    /*-webkit-flex-direction: column;
+    flex-direction: column; */
+ 
+}
 
+.nav_image {
+    background-color: transparent;
+    width: 50px;
+     margin: 5px;
+}
+
+.nav_click {
+    background-color: lightgrey;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
+
+.nav_text {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.nav_empty {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
+
+/*******************************************************************************************/
+
+.func {
+ height: 350px;
+ width: 100%;
+ margin: 5px;
+ font-size: 12px;
+ background-color: white;
+    display: -webkit-flex;
+    display: flex;
+    webkit-flex-direction: column;
+    flex-direction: column;
+ 
+}
+
+.btn_label {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn_input {
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: 5px;
+ }
+
+
+
+.btn_empty_small
+{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+ }
+
+.btn_empty_medium
+{
+    background-color: yellow;
+    width: 15px;
+    height: 15px;
+ }
+
+.btn_empty_large
+{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+ }
+
+
+
+/** ********************************************************************************* **/
 h1 {
    text-align: left;
     font-size: 20px;
@@ -64,7 +162,11 @@ p {
  * http://components.onsenui.io/
  */
 .button--large {
+    text-decoration: none;
+    font-weight: bold;
   margin: 5px 0 5x 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
   position: relative;
   display: inline-block;
