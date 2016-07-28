@@ -12,12 +12,22 @@
     <title>Startseite</title>
 </head>
 <body>
-    <img src="./images/BMW.png" width=10% height=auto alt="Logo"/> 
-    <a href="./main.html">Back</a>
-    <a href="./index.html">Main</a>
-        <!-- Ich bin ein Kommentar -->
+     <!--Header Navigation-->
+    <div class="nav">
+        <a class="nav_click" href="./index.html">Main</a>
+        <a class="nav_click" href="./main.html">Back</a>
+        <div class="nav_empty" />
+        <div class="nav_text">"FG - Find Genius"</div> 
+        <img class="nav_image" src="./images/BMW.png" width=10% height=auto alt="Logo"/> 
+    </div>
     
-    <!-- Start: Inhalt der Pr�sentation -->
+    <!--Header Fuction-->
+    <div class="func">
+        <button class="func_btn" type="button" id="btn_save">Save</button>
+        <div class="btn_empty_large"/>
+        <button class="func_btn" type="button" id="btn_reset">Reset</button>
+    </div>
+
     <h1>Nutzer anlegen</h1>
     
     <label for="faehigkeit">F&auml;igkeit:</label> 
@@ -25,9 +35,6 @@
     
     <label for="nutzer">Nutzer:</label> 
     <input type="text" id="nutzer" value=""><br /><br />
-    
-    <button type="button" id="save">Save</button>
-    <button type="button" id="reset">Reset</button>
      
 </body>
 </html>
