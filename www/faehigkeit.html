@@ -12,31 +12,35 @@
     <title>Startseite</title>
 </head>
 <body>
-    <img src="./images/BMW.png" width=10% height=auto alt="Logo"/> 
-    <a href="./main.html">Back</a>
-    <a href="./index.html">Main</a>
-    <a href="./faehigkeitanlegen.html">Create</a>
-    <!-- Ich bin ein Kommentar -->
+    <!--Header Navigation-->
+    <div class="nav">
+        <a class="nav_click" href="./index.html">Main</a>
+        <a class="nav_click" href="./main.html">Back</a>
+        <a class="nav_click" href="./faehigkeitanlegen.html">F&auml;higkeit anlegen</a>
+        <div class="nav_text">"FG - Find Genius"</div> 
+        <img class="nav_image" src="./images/BMW.png" width=10% height=auto alt="Logo"/> 
+    </div>
     
-    <!-- Start: Inhalt der Praesentation -->
+    <!--Header Fuction-->
+    <div class="func">
+        <label class="btn_label" for="faehigkeit">F&auml;higkeit:</label>
+        <input class="btn_input" type="text" id="faehigkeit" value="Bitte die gesuchte Fähigkeit eingeben..." />
+        <div class="btn_empty_small"/>
+        <button class="func_btn" type="button" id="btn_getFaehigkeit">Fähigkeit suchen</button>
+        <div class="btn_empty_large"/>
+        <button class="func_btn" type="button" id="btn_getFaehigkeiten">alle Fähigkeiten anzeigen</button>
+    </div>
+        
+    <!--Content-->
     <h1>F&auml;higkeit</h1>
-   <!-- <a href="./Entwicklungsbausteine.html">Dies ist ein Link</a>
-    <p>In dieser APP kannst du deine Faehigkeiten hinterlegen oder nach Faehigkeiten deiner Kollegen suchen.</p>
-    <h3>Ich bin eine kleinere Ueberschrift</h3>
-    <ol>
-        <li>Zeile eins</li>
-        <li>Zeile zwei</li>
-        <li>Zeile drei</li>
-    </ol>-->
-    
-          
+    <p>Hier kannst Du nach Faehigkeiten deiner Kollegen suchen.</p>
 
     <table>
         <tr><td>1</td><td><a class="button--small" href="nutzerfaehigkeit.html">...</a></td></tr>
         <tr><td>2</td><td><a class="button--small" href="nutzerfaehigkeit.html">...</a></td></tr>
         <tr><td>3</td><td><a class="button--small" href="nutzerfaehigkeit.html">...</a></td></tr>
     </table>      
-    </form>
+</form>
      
 </body>
 </html>

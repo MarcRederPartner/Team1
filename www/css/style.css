@@ -4,6 +4,49 @@ body {
     font-family: 'Arial';
 }
 
+
+
+.nav {
+height: 70px;
+width: 100%;
+margin: 5px;
+background-color: white;
+    display: -webkit-flex;
+    display: flex;
+    /*-webkit-flex-direction: row;
+    flex-direction: row;*/
+
+}
+
+
+ 
+ 
+ 
+
+.nav_image {
+    background-color: transparent;
+    width: 50px;
+    margin: 5px;
+}
+
+.nav_click {
+    background-color: white;
+    /*width: auto;
+    height: auto;*/
+    margin: 10px;
+}
+
+.nav_text, .nav_empty {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    margin: 10px;
+}
+
+/*******************************************************************************************/
+
+
 h1 {
    text-align: left;
     font-size: 20px;
@@ -60,11 +103,15 @@ p {
     color: black;
 }
 /**
- * Large Button Component
- * http://components.onsenui.io/
- */
+* Large Button Component
+* http://components.onsenui.io/
+*/
 .button--large {
+    text-decoration: none;
+    font-weight: bold;
   margin: 5px 0 5x 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
   position: relative;
   display: inline-block;

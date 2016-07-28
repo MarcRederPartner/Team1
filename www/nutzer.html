@@ -12,24 +12,26 @@
     <title>Startseite</title>
 </head>
 <body>
-    <img src="./images/BMW.png" width=10% height=auto alt="Logo"/> 
-    <a href="./main.html">Back</a>
-    <a href="./index.html">Main</a>
-    <a href="./nutzeranlegen.html">Create</a>
-    <!-- Ich bin ein Kommentar -->
+     <!--Header Navigation-->
+    <div class="nav">
+        <a class="nav_click" href="./index.html">Main</a>
+        <a class="nav_click" href="./main.html">Back</a>
+        <a class="nav_click" href="./nutzeranlegen.html">Nutzer anlegen</a>
+        <div class="nav_text">"FG - Find Genius"</div> 
+        <img class="nav_image" src="./images/BMW.png" width=10% height=auto alt="Logo"/> 
+    </div>
     
-    <!-- Start: Inhalt der Pr�sentation -->
+    <!--Header Fuction-->
+    <div class="func">
+        <label class="btn_label" for="nutzer">Nutzer:</label>
+        <input class="btn_input" type="text" id="nutzer" value="Bitte den gesuchten Nutzer eingeben..." />
+        <div class="btn_empty_small"/>
+        <button class="func_btn" type="button" id="btn_getUser">Nutzer suchen</button>
+        <div class="btn_empty_large"/>
+        <button class="func_btn" type="button" id="btn_getUsers">alle Nutzer anzeigen</button>
+    </div>
+
     <h1>Nutzer</h1>
-   <!-- <a href="./Entwicklungsbausteine.html">Dies ist ein Link</a>
-    <p>In dieser APP kannst du deine F�higkeiten hinterlegen oder nach F�higkeiten deiner Kollegen suchen.</p>
-    <h3>Ich bin eine kleinere �berschrift</h3>
-    <ol>
-        <li>Zeile eins</li>
-        <li>Zeile zwei</li>
-        <li>Zeile drei</li>
-    </ol>-->
-    
-          
 
     <table>
         <tr><td>1</td><td><a class="button--small" href="faehigkeitennutzer.html">...</a></td></tr>
