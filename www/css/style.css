@@ -1,6 +1,6 @@
 body {
     padding: 5px; /**   **/
-    background-color: black;
+    background-color: white;
     font-family: 'Arial';
 }
 
@@ -9,7 +9,7 @@ h1 {
     font-size: 20px;
     padding: 0;
     margin: 10px 0 10px 0;
-    color: white;
+    color: black;
 }
 
 h2 {
@@ -17,14 +17,14 @@ h2 {
     font-size: 18px;
     padding: 0;
     margin: 8px 0 8px 0;
-    color: white;
+    color: black;
 }
 h3 {
    text-align: left;
     font-size: 16px;
     padding: 0;
     margin: 6px 0 6px 0;
-    color: white;
+    color: black;
 }
 
 h4 {
@@ -32,7 +32,7 @@ h4 {
     font-size: 14px;
     padding: 0;
     margin: 4px 0 4px 0;
-    color: white;
+    color: black;
 }
 
 h5 {
@@ -40,7 +40,7 @@ h5 {
     font-size: 12px;
     padding: 0;
     margin: 2px 0 2px 0;
-    color: white;
+    color: black;
 }
 
 h6 {
@@ -48,7 +48,7 @@ h6 {
     font-size: 10px;
     padding: 0;
     margin: 2px 0 2px 0;
-    color: white;
+    color: black;
 }
 
 
@@ -57,21 +57,23 @@ p {
     font-size: 10px;
     padding: 0;
     margin: 2px 0 2px 0;
-    color: white;
+    color: black;
 }
 /**
  * Large Button Component
  * http://components.onsenui.io/
  */
 .button--large {
+  margin: 5px 0 5x 0;
   text-align: center;
   position: relative;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   background-color: transparent;
-  color: white;
+  color: black;
   font-family: 'Arial';
   width: 100%;
+  /**height: 100%; **/
   
   
   background-color:    transparent;
@@ -79,51 +81,41 @@ p {
         border-style:        solid;
         border-color:        blue;
     /**border-right-color:  black;
-	border-bottom-color: black;**/
+    border-bottom-color: black;**/
+    
+}
+
+.button--medium {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: transparent;
+  color: black;
+  font-family: 'Arial';
+  width: 100%;
+  
+  
+  background-color:    transparent;
+        border-width:        6px;
+        border-style:        solid;
+        border-color:        blue;
   
     
 }
 
-
-.Table--Anzeigen {
-    
-    
-}
-
-
-
-
-
-/**
-.button--large:active {
-  background-color: #1284ff;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  color: #fff;
-  -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
-  opacity: 0.6;
-  -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
-}
-.button--large:disabled {
-  opacity: 0.3;
-  cursor: default;
-  pointer-events: none;
-}
-.button--large:hover {
-  -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
-}
-.button--large:focus {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  outline: 0;
-}
-**/
+.button--small {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: transparent;
+  color: black;
+  font-family: 'Arial';
+  width: 100%;
+  
+  
+  background-color:    transparent;
+        border-width:        6px;
+        border-style:        solid;
+        border-color:        blue;
